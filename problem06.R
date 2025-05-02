@@ -23,8 +23,8 @@
 solve_problem <- function() {
   range <- 1:100
   sum_of_squares <- sum((range)^2)
-  sum <- sum(range)
-  return(sum_of_squares - sum)
+  square_of_sum <- (sum(range))^2
+  return(square_of_sum - sum_of_squares)
 }
 
 # ▶ Executar e exibir resultado:
